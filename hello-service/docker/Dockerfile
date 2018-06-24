@@ -1,0 +1,13 @@
+FROM dapengsoa/dapeng-container:2.0.2
+MAINTAINER dapengsoa@gmail.com
+
+ENV CONTAINER_HOME /dapeng-container
+ENV PATH $CONTAINER_HOME:$PATH
+
+RUN chmod +x ${CONTAINER_HOME}/bin/*.sh
+
+WORKDIR ${CONTAINER_HOME}/bin
+
+COPY hello-service ${CONTAINER_HOME}/apps/hello-service/
+
+ENTRYPOINT ["./startup.sh"]
