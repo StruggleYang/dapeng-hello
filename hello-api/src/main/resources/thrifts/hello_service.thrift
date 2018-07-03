@@ -1,6 +1,6 @@
 include "hello_domain.thrift"
 
-namespace java org.struy.hello.service
+namespace java com.dapeng.example.hello.service
 
 /**
 * Hello-Service

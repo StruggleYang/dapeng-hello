@@ -1,8 +1,9 @@
-package org.struy.service;
+package com.dapeng.example.service;
 
+import com.dapeng.example.hello.domain.Hello;
+import com.dapeng.example.hello.service.HelloService;
 import com.github.dapeng.core.SoaException;
-import org.struy.hello.domain.Hello;
-import org.struy.hello.service.HelloService;
+
 
 /**
  * @author with struy.

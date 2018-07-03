@@ -1,4 +1,4 @@
-namespace java org.struy.hello.domain
+namespace java com.dapeng.example.hello.domain
 
 /**
 * hello
